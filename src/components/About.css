@@ -1,0 +1,35 @@
+/* Add your custom styles here */
+
+/* Style the About Me section */
+h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  /* Style the Social Media section */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #007bff; /* Blue color for links */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+  }
+  
+  a:hover {
+    color: #0056b3; /* Darker blue color on hover */
+  }
+  
