@@ -24,12 +24,12 @@ const About = () => {
                 <h2>Social Media</h2>
                 <ul className="list-unstyled">
                   <li>
-                    <a href="YOUR_LINKEDIN_PROFILE" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/RAZAGHUL123" target="_blank" rel="noopener noreferrer">
                       <FaLinkedin /> LinkedIn
                     </a>
                   </li>
                   <li>
-                    <a href="YOUR_TWITTER_PROFILE" target="_blank" rel="noopener noreferrer">
+                    <a href="https://twitter.com/no_rest4D_wicke" target="_blank" rel="noopener noreferrer">
                       <FaTwitter /> Twitter
                     </a>
                   </li>
