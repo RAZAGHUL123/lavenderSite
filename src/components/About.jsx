@@ -24,7 +24,7 @@ const About = () => {
                 <h2>Social Media</h2>
                 <ul className="list-unstyled">
                   <li>
-                    <a href="https://github.com/RAZAGHUL123" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/rafael-moreno-38b278272/" target="_blank" rel="noopener noreferrer">
                       <FaLinkedin /> LinkedIn
                     </a>
                   </li>
@@ -34,7 +34,7 @@ const About = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="YOUR_GITHUB_PROFILE" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/RAZAGHUL123" target="_blank" rel="noopener noreferrer">
                       <FaGithub /> GitHub
                     </a>
                   </li>
