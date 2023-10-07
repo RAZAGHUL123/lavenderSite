@@ -16,6 +16,8 @@ function MyNavbar() {
             <Nav.Link as={Link} to="/about">About</Nav.Link>
             <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
             <Nav.Link as ={Link} to = "/github">GithubProjects</Nav.Link>
+            <Nav.Link as ={Link} to = "/photo">PhotoGallery</Nav.Link>
+            
           </Nav>
         </Navbar.Collapse>
       </Container>

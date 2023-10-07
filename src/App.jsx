@@ -7,6 +7,7 @@ import Cover from './components/Cover'; // Import the Cover component
 import Contact from './components/Contact';
 import About from './components/About';
 import GithubPROJ from './components/GithubPROJ';
+import PhotoGallery from './components/PhotoGallery';
 import './App.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path ="/contact" element={<Contact />} />
         <Route path ="/about" element={<About />} />
         <Route path = "/github" element={ <GithubPROJ/>}></Route >
+        <Route path= '/photo' element={<PhotoGallery />} />
         {/* Add more routes here */}
       </Routes>
       <Footer />
