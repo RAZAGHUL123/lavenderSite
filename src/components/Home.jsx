@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import Projects from './Projects'; // Import the Projects component
+import './Home.css'; // Import your custom CSS for Home
 
 const Home = () => {
   return (
@@ -8,6 +9,23 @@ const Home = () => {
       <Row>
         <Col md={4}>
           {/* Your profile card */}
+          <Card className="profile-card">
+            <Card.Img
+              src="https://images.unsplash.com/photo-1510987836583-e3fb9586c7b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" // Replace with your image URL
+              alt="Profile Image"
+              className="profile-image"
+            />
+            <div className="overlay"></div>
+            <Card.Body>
+              <Card.Title className="text-white">Rafael Moreno</Card.Title>
+              <Card.Text className="text-white">
+                Hello! I'm a passionate web developer with expertise in JavaScript
+                and React. I love creating beautiful and functional websites that
+                make a difference.
+              </Card.Text>
+              <Button variant="light">View Profile</Button>
+            </Card.Body>
+          </Card>
         </Col>
         <Col md={8}>
           <h2>Rafael Moreno</h2>
