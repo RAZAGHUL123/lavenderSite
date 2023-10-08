@@ -20,7 +20,7 @@ const Home = () => {
               <Card.Title className="text-white">Rafael Moreno</Card.Title>
               <Card.Text className="text-white">
                 Hello! I'm a passionate web developer with expertise in JavaScript
-                and React. I love creating beautiful and functional websites that
+                and React. I love constantly learning new things, creating beautiful and functional websites that
                 make a difference.
               </Card.Text>
               <Button variant="light">View Profile</Button>
