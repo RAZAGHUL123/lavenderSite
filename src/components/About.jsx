@@ -1,14 +1,13 @@
 import React from 'react';
-import { Container, Row, Col, Card, Nav } from 'react-bootstrap';
+import { Container, Row, Col, Card, Nav, Table } from 'react-bootstrap';
 import { FaLinkedin, FaTwitter, FaGithub } from 'react-icons/fa';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './About.css';
-import { Container, Row, Col, Card, Nav, Table } from 'react-bootstrap';
-
 
 const AboutMe = () => {
   return (
     <Container>
+
       <Row className="mb-4">
         <Col>
           <Card>
@@ -76,9 +75,7 @@ const AboutMe = () => {
               </div>
             </Card.Body>
           </Card>
-        </Col>
-        <Col lg={6}>
-          <Card>
+          <Card className="mt-4">
             <Card.Body>
               <h2>Favorite Games</h2>
               <Table striped bordered hover size="sm">
@@ -110,7 +107,6 @@ const AboutMe = () => {
             </Card.Body>
           </Card>
         </Col>
-
       </Row>
     </Container>
   );
