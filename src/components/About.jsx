@@ -56,7 +56,7 @@ const AboutMe = () => {
 
         <Col lg={6}>
           <Card>
-            <Card.Body>
+            <Card.Body className="social-media-section">
               <h2>Social Media</h2>
               <div className="social-media-list">
                 <div className="social-media-item">
@@ -75,6 +75,7 @@ const AboutMe = () => {
             </Card.Body>
           </Card>
         </Col>
+
 
       </Row>
     </Container>

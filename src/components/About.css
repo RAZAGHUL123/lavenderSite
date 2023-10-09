@@ -32,15 +32,19 @@ h2 {
   a:hover {
     color: #0056b3; /* Darker blue color on hover */
   }
- .social-media-list {
-    display: flex;
-    flex-direction: column;
+ .social-media-section h2 {
+    margin-bottom: 20px; /* Space between the heading and the icons below */
+}
+
+.social-media-list {
+    list-style-type: none;
+    padding-left: 0;
 }
 
 .social-media-item {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .social-media-icon {
