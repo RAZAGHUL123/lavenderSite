@@ -58,26 +58,24 @@ const AboutMe = () => {
           <Card>
             <Card.Body>
               <h2>Social Media</h2>
-              <ul className="list-unstyled social-media-list">
-                <li>
-                  <a href="https://www.linkedin.com/in/rafael-moreno-38b278272/" target="_blank" rel="noopener noreferrer">
-                    <FaLinkedin className="social-media-icon" /> LinkedIn
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/no_rest4D_wicke" target="_blank" rel="noopener noreferrer">
-                    <FaTwitter className="social-media-icon" /> Twitter
-                  </a>
-                </li>
-                <li>
-                  <a href="https://github.com/RAZAGHUL123" target="_blank" rel="noopener noreferrer">
-                    <FaGithub className="social-media-icon" /> GitHub
-                  </a>
-                </li>
-              </ul>
+              <div className="social-media-list">
+                <div className="social-media-item">
+                  <FaLinkedin className="social-media-icon" />
+                  <a href="https://www.linkedin.com/in/rafael-moreno-38b278272/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                </div>
+                <div className="social-media-item">
+                  <FaTwitter className="social-media-icon" />
+                  <a href="https://twitter.com/no_rest4D_wicke" target="_blank" rel="noopener noreferrer">Twitter</a>
+                </div>
+                <div className="social-media-item">
+                  <FaGithub className="social-media-icon" />
+                  <a href="https://github.com/RAZAGHUL123" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+              </div>
             </Card.Body>
           </Card>
         </Col>
+
       </Row>
     </Container>
   );
