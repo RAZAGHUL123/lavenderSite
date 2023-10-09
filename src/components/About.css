@@ -32,4 +32,16 @@ h2 {
   a:hover {
     color: #0056b3; /* Darker blue color on hover */
   }
-  
+  .social-media-list {
+    padding: 0;
+}
+
+.social-media-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Spacing between the items, can adjust */
+}
+
+.social-media-icon {
+    margin-right: 10px; /* Spacing between the icon and the text, can adjust */
+}
