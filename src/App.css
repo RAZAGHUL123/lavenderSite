@@ -46,9 +46,9 @@ a:hover {
 /* Cover.css */
 
 .cover-container {
-  background-image: url('https://images.unsplash.com/photo-1510987836583-e3fb9586c7b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGRhcmslMjBhZXRoZXRpY3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60');
+  background-image: url('https://images.unsplash.com/photo-1518343265568-51eec52d40da?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2012&q=80);
   position: relative;
-  width: 100%;
+  width: 50%;
   height: 100vh; /* Set the height to the viewport height */
   overflow: hidden;
 }
