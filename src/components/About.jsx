@@ -75,8 +75,8 @@ const AboutMe = () => {
               </div>
             </Card.Body>
           </Card>
-          <Card className="mt-4">
-            <Card.Body>
+          <Card>
+            <Card.Body className="social-media-section">
               <h2>Favorite Games</h2>
               <Table striped bordered hover size="sm">
                 <thead>
