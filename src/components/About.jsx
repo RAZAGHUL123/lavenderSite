@@ -75,7 +75,39 @@ const AboutMe = () => {
             </Card.Body>
           </Card>
         </Col>
-
+        <Col lg={6}>
+          <Card>
+            <Card.Body>
+              <h2>Favorite Games</h2>
+              <Table striped bordered hover size="sm">
+                <thead>
+                  <tr>
+                    <th>Game</th>
+                    <th>Console</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Bioshock</td>
+                    <td>PS4</td>
+                  </tr>
+                  <tr>
+                    <td>Last of Us</td>
+                    <td>PS4</td>
+                  </tr>
+                  <tr>
+                    <td>Fallout 4</td>
+                    <td>PS4</td>
+                  </tr>
+                  <tr>
+                    <td>Borderlands 2</td>
+                    <td>PS4</td>
+                  </tr>
+                </tbody>
+              </Table>
+            </Card.Body>
+          </Card>
+        </Col>
 
       </Row>
     </Container>
