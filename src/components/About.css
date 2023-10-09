@@ -57,13 +57,13 @@ h2 {
 .social-media-item {
     display: flex;
     align-items: center;
-    margin-bottom: 8px;
+    margin-bottom: 15px; 
 }
 
-/* Space between the icon and its label */
 .social-media-icon {
     margin-right: 10px;
 }
+
 table {
     width: 100%; /* Ensure the table takes up the full card width */
 }

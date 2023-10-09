@@ -3,6 +3,8 @@ import { Container, Row, Col, Card, Nav } from 'react-bootstrap';
 import { FaLinkedin, FaTwitter, FaGithub } from 'react-icons/fa';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './About.css';
+import { Container, Row, Col, Card, Nav, Table } from 'react-bootstrap';
+
 
 const AboutMe = () => {
   return (
