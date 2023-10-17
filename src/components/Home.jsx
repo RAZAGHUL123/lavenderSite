@@ -11,7 +11,7 @@ const Home = () => {
           {/* Your profile card */}
           <Card className="profile-card">
             <Card.Img
-              src="https://images.unsplash.com/photo-1510987836583-e3fb9586c7b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" // Replace with your image URL
+              src="https://images.unsplash.com/photo-1530103043960-ef38714abb15?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80" // Replace with your image URL
               alt="Profile Image"
               className="profile-image"
             />
@@ -20,7 +20,7 @@ const Home = () => {
               <Card.Title className="text-white">Rafael Moreno</Card.Title>
               <Card.Text className="text-white">
                 Hello! I'm a passionate web developer with expertise in JavaScript
-                and React. I love creating beautiful and functional websites that
+                and React. I love constantly learning new things, creating beautiful and functional websites that
                 make a difference.
               </Card.Text>
               <Button variant="light">View Profile</Button>

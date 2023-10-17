@@ -32,4 +32,44 @@ h2 {
   a:hover {
     color: #0056b3; /* Darker blue color on hover */
   }
-  
+ /* The entire social media section */
+.social-media-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px; /* Optional: Adds space within the card */
+}
+
+.social-media-section h2 {
+    margin-bottom: 20px; 
+}
+
+/* The list of social media links */
+.social-media-list {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Individual social media item */
+.social-media-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; 
+}
+
+.social-media-icon {
+    margin-right: 10px;
+}
+
+table {
+    width: 100%; /* Ensure the table takes up the full card width */
+}
+
+/* Styling the table headers for a more distinct look */
+table thead th {
+    background-color: #e9ecef; /* Light gray background */
+    color: #495057; /* Dark text */
+}
