@@ -40,13 +40,13 @@ a:hover {
 }
 
 .read-the-docs {
-  color: #888;
+  color: #070101;
 }
 
 /* Cover.css */
 
 .cover-container {
-  background-image: url('https://images.unsplash.com/photo-1621839673705-6617adf9e890?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80');
+  background-image: url('https://images.unsplash.com/photo-1617957848811-9c07f14d7ba3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80');
   position: relative;
   width: 100%;
   height: 100vh; /* Set the height to the viewport height */
