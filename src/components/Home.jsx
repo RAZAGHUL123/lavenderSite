@@ -31,7 +31,7 @@ const Home = () => {
           <h2>Rafael Moreno</h2>
           <p>
           I specialize in developing dynamic e-commerce websites using React as my core technology, with a track record of seamlessly integrating it into various platforms and languages. Beyond e-commerce, I excel in crafting versatile web solutions by leveraging a broad skill set that includes HTML, CSS, JavaScript, and various backend languages. My commitment to staying on the forefront of web development trends and technologies ensures that I deliver exceptional, future-proof digital experiences. Whether it's building feature-rich e-commerce platforms or creating responsive websites for emerging platforms, I am dedicated to exceeding client expectations and transforming unique visions into cutting-edge web realities.
-            <br>
+            
 
           </p>
           <h2>Skills</h2>
